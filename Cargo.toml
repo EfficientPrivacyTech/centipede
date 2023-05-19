@@ -22,7 +22,7 @@ rayon = "1.0.3"
 # bulletproof-kzen = { version = "1.2", default-features = false }
 # curv-kzen = { version = "0.10", default-features = false }
 # num-bigint = { version = "0.4", features = ["serde"], optional = true }
-curv = { package = "curv-kzen", git = "https://github.com/EfficientPrivacyTech/curv.git", rev = "fcb7ac3" }
+curv = { package = "curv-kzen", git = "https://github.com/EfficientPrivacyTech/curv.git"} #, rev = "fcb7ac3" }
 # curv = { package = "curv-kzen", git="https://github.com/ZenGo-X/curv.git", rev="44537a74", default-features=false, features=["num-bigint"]}
 bulletproof = { package = "bulletproof-kzen", git = "https://github.com/EfficientPrivacyTech/bulletproofs.git", default-features = false }
 sha2 = "0.9"
